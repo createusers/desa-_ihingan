@@ -5443,14 +5443,16 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
   margin-bottom: 65px;
 }
 
-.widget--service .widget__icon img {
+.widget--service .widget__icon i {
   position: absolute;
-  bottom: -18%;
-  right: -22%;
+  font-size: 45px;
+  bottom: -10%;
+  right: -15%;
+  color: #232323;
 }
 
 .widget--service .widget__icon--golden-tainoi {
-  background-color: #ffd166;
+  background-color: #1B763B;
 }
 
 .widget--service .widget__icon--ice-cold {
@@ -5459,6 +5461,10 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
 
 .widget--service .widget__icon--anakiwaap {
   background-color: #a9d2ff;
+}
+
+.widget--service .widget__icon--appolo {
+  background-color: #EAAFFF;
 }
 
 .widget--service .widget__heading {
@@ -10549,12 +10555,12 @@ ________________________________ */
 }
 
 .service-items {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 @media (min-width: 992px) {
   .service-items {
-    margin-top: 143px;
+    margin-top: 100px;
   }
 }
 
@@ -11364,7 +11370,7 @@ ________________________________ */
   position: absolute;
   width: 10px;
   height: 18px;
-  background-color: #ff5722;
+  background-color: #1B763B !important;
   left: 10px;
   top: 4px;
 }

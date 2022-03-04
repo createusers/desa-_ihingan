@@ -4873,6 +4873,16 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
 .testimonial-section--l8 .card-testimonial--l4:hover .card-icon {
   color: #fff;
 }
+/*
+  Home 8 : Testimonial
+---------------------------------*/
+.testimonial-section2--l8 .card-testimonial--l4 .card-icon {
+  color: #099a97;
+}
+
+.testimonial-section2--l8 .card-testimonial--l4:hover .card-icon {
+  color: #fff;
+}
 
 /*
   Home 8 : Pricing Table
@@ -8967,16 +8977,40 @@ ________________________________ */
   }
 }
 
-.testimonial-section--l4 .section-title__sub-heading,
-.testimonial-section--l6 .section-title__sub-heading,
-.testimonial-section--l8 .section-title__sub-heading,
-.testimonial-inner-2 .section-title__sub-heading {
+@media (min-width: 768px) {
+  .testimonial-section2--l8 {
+    padding-top: 75px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial-section2--l8 {
+    padding-top: 0;
+    padding-bottom: 130px;
+  }
+}
+
+@media (min-width: 576px) {
+  .testimonial-section2--l8  {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial-section2--l8  {
+    padding-bottom: 55px;
+  }
+}
+
+.testimonial-section2--l8  {
   margin-bottom: 15px;
 }
 
 .testimonial-section--l4 .section-title__heading,
 .testimonial-section--l6 .section-title__heading,
 .testimonial-section--l8 .section-title__heading,
+.testimonial-section2--l8,
 .testimonial-inner-2 .section-title__heading {
   font-size: 28px;
   font-weight: 500;
@@ -8988,6 +9022,7 @@ ________________________________ */
   .testimonial-section--l4 .section-title__heading,
   .testimonial-section--l6 .section-title__heading,
   .testimonial-section--l8 .section-title__heading,
+  .testimonial-section2--l8,
   .testimonial-inner-2 .section-title__heading {
     font-size: 36px;
   }
